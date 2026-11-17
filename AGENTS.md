@@ -1,3 +1,5 @@
+> **Local Captain Overrides:** Always read and enforce `AGENTS.local.md` in this directory alongside the rules below.
+
 # Firstmate
 
 This is the supervisor contract for primary firstmates and persistent secondmates.
