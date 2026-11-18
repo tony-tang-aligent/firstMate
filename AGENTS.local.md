@@ -33,3 +33,8 @@
 - This repository (`origin`: `tony-tang-aligent/firstMate`) is privately maintained by the Captain.
 - NEVER run `/updatefirstmate` or overwrite `origin/main` with `upstream/main` automatically.
 - To sync selective upstream improvements, fetch `upstream` and merge or cherry-pick on a review branch first.
+
+## 8. Corporate Network & Daemon Hardening
+- **No External Relays:** Never configure or invoke `FMX_PAIRING_TOKEN`, `myfirstmate.io`, or `bin/fm-x-*.sh`. All fleet state stays strictly local.
+- **No Background LaunchAgents:** Never run `bin/fm-remote-doctor.sh` or register `~/Library/LaunchAgents/dev.firstmate.*` services.
+- **No Unapproved Binary Downloads:** Never run `bin/fm-bootstrap.sh` or `bin/fm-install-*.sh` to download third-party binaries without explicit Captain approval.
